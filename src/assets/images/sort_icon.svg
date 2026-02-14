@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="20"
+   height="20"
+   viewBox="0 0 24 24"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <g>
+    <path
+       style="fill:#ddd;stroke:none;stroke-width:0.396875"
+       d="m 13.601608,11.377889 -9.2521183,-0.006 4.6312311,-8.009584 z"
+       transform="translate(3.0244509,-0.18733286)" />
+    <path
+       style="fill:#ddd;stroke:none;stroke-width:0.396875"
+       d="m 13.601608,11.377889 -9.2521183,-0.006 4.6312311,-8.009584 z"
+       transform="rotate(59.896867,4.60696,14.719553)" />
+  </g>
+</svg>

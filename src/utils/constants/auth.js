@@ -1,0 +1,11 @@
+export const ACCESS_TOKEN_KEY = "ACCESS_TOKEN";
+export const REFRESH_TOKEN_KEY = "REFRESH_TOKEN";
+export const USER_DATA = "USER_DATA";
+export const USER_STATUS = "USER_STATUS";
+export const IS_ADMIN = "IS_ADMIN";
+export const IP_LOCAL_DATA = "IP_LOCAL_DATA";
+export const USER_LOCALE = "USER_LOCALE";
+export const STRIPE_ACCOUNT_ID = "STRIPE_ACCOUNT_ID";
+export const MOBILE_AD_DATA = "MOBILE_AD_DATA";
+export const LIKED_LEARNING_ADS_KEY = "LIKED_LEARNING_ADS_KEY";
+export const THEME_KEY = "THEME_KEY";

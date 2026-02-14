@@ -1,0 +1,37 @@
+$primary: #709a1c;
+$black: #131a47;
+$black100: #ffffff0d;
+$black200: #ffffff0a;
+$black300: #535353;
+$black400: #121212;
+$black500: #333;
+$black600: #141c2480;
+
+$red: #d32f2f;
+
+$green: #139810;
+
+$white: #fff;
+
+$grey: #131a470a;
+$grey100: #fafafa;
+$grey200: #f6f9f1;
+$grey300: #c8cad6;
+
+:export {
+  primary: $primary;
+  red: $red;
+  green: $green;
+  black: $black;
+  white: $white;
+  black100: $black100;
+  black200: $black200;
+  black300: $black300;
+  black400: $black400;
+  black500: $black500;
+  black600: $black600;
+  grey: $grey;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+}

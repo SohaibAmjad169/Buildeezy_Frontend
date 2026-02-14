@@ -1,0 +1,76 @@
+.bid-invitations-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bid-invitations-container h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.bid-invitation-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invitation-content {
+  flex: 1;
+}
+
+.invitation-content h4 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.invitation-content p {
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.invitation-actions {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.invitation-actions button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.accept-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.accept-btn:hover {
+  background-color: #45a049;
+}
+
+.reject-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.reject-btn:hover {
+  background-color: #da190b;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

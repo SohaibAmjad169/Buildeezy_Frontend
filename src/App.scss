@@ -1,0 +1,55 @@
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-ellipsis-line-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+/* WebKit-based browsers (Chrome, Safari, Opera) */
+
+/* width and height for the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #888; //#709a1c;
+  border-radius: 6px;
+}
+
+/* scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; //#709a1c;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: 5px;
+  // scrollbar-color: #888 #f1f1f1;
+}
+
+li {
+  font-size: 0.875rem !important;
+}
+
+.css-18klzp8-MuiPaper-root-MuiDialog-paper{
+  max-width:800px !important
+}
+
+.css-14s21z5-MuiModal-root-MuiDialog-root .MuiDialog-container .MuiPaper-root{
+  min-width: 280px !important;
+  // padding: 20px 20px !important;
+}

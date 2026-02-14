@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  .MuiDataGrid-filterForm {
+    flex-direction: column;
+  }
+  .MuiDataGrid-filterForm div {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  .MuiDataGrid-filterForm .MuiDataGrid-filterFormDeleteIcon {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    order: 2;
+  }
+  .MuiDataGrid-filterForm .MuiDataGrid-filterFormDeleteIcon button::before {
+    content: "Clear Filter";
+    font-size: 0.925rem;
+    font-weight: 600;
+  }
+}
+.css-365ycf {
+  // padding-top: 0 !important;
+  // padding-bottom: 0 !important;
+  // padding-left: 0 !important;
+  // padding-right: 0 !important;
+}
+.css-rnnxyt,
+.css-1vf9r8p-MuiTypography-root {
+  line-break: anywhere;
+}
+
+.MuiStack-root.css-1d9sn08-MuiStack-root {
+  white-space: break-spaces;
+}
+.MuiStack-root.css-imn8jj-MuiStack-root {
+  white-space: break-spaces;
+  line-break: anywhere;
+}
